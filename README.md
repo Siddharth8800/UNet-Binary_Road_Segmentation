@@ -5,7 +5,7 @@ Dataset: [SROADEX: Dataset for binary recognition and semantic segmentation of r
 ## Training Details
 
 - Model: U-Net(Custom)
-  I added BatchNormalization2d layers to the original U-Net model to speed up the training process. I also added same padding to the convolutional layers to keep the spatial dimensions the same.
+  I added `nn.BatchNorm2d()` layers to the original U-Net model to speed up the training process. I also added same padding to the convolutional layers to keep the spatial dimensions the same.
   Images of 256x256 and normalized to [0, 1] range.
 
 ### Checkpoint
