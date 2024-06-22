@@ -13,7 +13,7 @@ Dataset: [SROADEX: Dataset for binary recognition and semantic segmentation of r
 The checkpoint was trained for `EPOCHS=10` and `BATCH_SIZE=40` with `Adam` optimizer, `LR=3e-4` and `BinaryCrossentropy` loss function.
 The checkpoint was only trained on 30% of the training data as indicated by `train_final, _ = random_split(train_dataset, [0.3, 0.7], generator=generator)`
 
-[Checkpoint](https://icedrive.net/s/wAygwTzRWhbVTjzG6BjC5SuahijV)
+Downlaod my checkpoint: [Checkpoint](https://icedrive.net/s/wAygwTzRWhbVTjzG6BjC5SuahijV)
 
 
 ### Hardware Used
